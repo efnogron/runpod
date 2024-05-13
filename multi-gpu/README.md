@@ -8,7 +8,7 @@ The following are the instructions if using RunPod via a terminal [it is better,
 
 1. Connect to the pod via ssh.
 1. `cd workspace` to move into the workspace folder.
-1. `git clone https://github.com/TrelisResearch/install-guides.git` (you'll need to enter your username and password, as this is a private repo).
+1. `git clone https://github.com/efnogron/runpod.git` (you'll need to enter your username and password, as this is a private repo).
 1. Then:
 ```
 cd install-guides/multi-gpu
@@ -19,8 +19,8 @@ to get onto the multi-gpu branch of the repo.
 
 Set up a virtual environment and run the installs:
 ```
-python -m venv trelisEnv
-source trelisEnv/bin/activate
+python -m venv tiroEnv
+source tiroEnv/bin/activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 pip install flash-attn --no-build-isolation

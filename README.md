@@ -1,3 +1,9 @@
+# Run this for setup:
+move to multi gpu branch via terminal
+$ cd /workspace/runpod/multi-gpu
+more instructions are in the other README.md file within multi-gpu
+
+
 # Install Guides
 Short guides for Large Language Models.
 
